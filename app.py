@@ -12,8 +12,8 @@ import skfuzzy as fuzz
 
 # Load data from Google Sheets
 sheet_id = "13luw-i-SML2J-_VSgcz7XsNHldbxTcCgWbHif6t4cbc"
-job_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet=Jobdetails_2023Full"
-business_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet=Businessesprofile_2023Full"
+job_url = f"https://docs.google.com/spreadsheets/d/1m_PlSdQEW26pdB1dxPI8A-jbfzsoFRamuN4jp6H36ww/edit?usp=sharing"
+business_url = f"https://docs.google.com/spreadsheets/d/1i4QXrHgrSeLwKmnC4rKRzjnwNlwxny68e4cC1qXdL1Q/edit?usp=sharing"
 
 df1 = pd.read_csv(job_url)
 df2 = pd.read_csv(business_url)
